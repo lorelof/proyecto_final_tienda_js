@@ -1,0 +1,309 @@
+.bigContainer{
+    padding: 0.5rem;   
+}
+h1 {
+    padding: 1.5rem;
+    margin: 1rem;
+    color: tomato;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+img {
+    width: 150px;
+    height: 200px;
+}
+header{
+    width: 95%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;    
+    gap: 3rem;
+}
+nav:hover{
+    text-transform: uppercase;
+    background-color: bisque;
+    color: tomato;
+}
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 
+    minmax(min(400px, 100%), 1fr));
+    gap: 5rem;
+    padding: 3rem;
+    background-color: rgb(245, 212, 223);
+    border-radius: 20px;
+}
+article{
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    border: 3px solid;
+    justify-content: space-around;
+    align-items: center; 
+    background-color: bisque;
+    margin: 1rem;
+    border-radius: 10px;
+    border: 3px solid tomato;    
+} 
+h3, h4 {
+    padding: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+.btnBuy, .btnDetail  {
+    background-color: crimson;
+    color: burlywood;
+    font-size: larger;
+    width: 8rem;
+    border-radius: 5px;
+    border: 0;
+    text-align: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+.btnBuy:hover, .btnDetail:hover, .btnAddProd:hover, .btnDeleteProd:hover, .btnFinBuy:hover {
+    text-transform: uppercase;
+    background-color: blanchedalmond;
+    color: crimson;
+    border: 3px solid tomato;
+}
+.btnAddProd, .btnDeleteProd, .btnFinBuy {
+    width: 11rem;
+    margin: 0.5rem;
+    gap: 2.5rem;
+}
+footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: crimson;
+}
+
+
+/* cart */
+h6 {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.bigContainerCart{    
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 
+        minmax(min(400px, 100%), 1fr));
+        /* display: grid;
+        grid-template-columns: repeat(auto-fit, 
+        minmax(200px, 1fr));
+        gap: 2rem; */        
+}
+.containerCart{
+    width: 90%;
+    margin: 1.0rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 
+    minmax(min(400px, 100%), 1fr));
+    gap: 5rem;
+    padding: 3rem;
+    background-color: rgb(245, 212, 223);
+    border-radius: 40px;
+    border: 5px solid crimson;
+
+}
+.cardCart {
+    width: 70%;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    border: 3px solid;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: bisque;
+    margin: 1rem;
+    border-radius: 10px;
+    border: 3px solid tomato;  
+}
+/* .btnAddProd, .btnDeleteProd, .btnFinBuy */
+.btnCart{
+    width: 90%;    
+}
+.btnAddProd, .btnDeleteProd, .btnFinBuy, .btnPay {
+    background-color: crimson;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 0.5rem;
+    width: 8rem;
+    margin: 0.5rem;  
+    height: 4rem;
+}
+.formCart{
+    width: 90%;
+    margin: 1.0rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 
+    minmax(min(250px, 100%), 1fr));
+    gap: 5rem;
+    padding: 2rem;
+    background-color: rgb(245, 212, 223);
+    border-radius: 40px;
+    border: 5px solid crimson;
+}
+.formCart input{
+    background-color: bisque;
+    margin: 1rem;
+    border-radius: 10px;
+    border: 3px solid tomato;  
+    height: 30px;
+    width: 60%;
+}
+
+
+
+
+/* *************************************************************** */
+/* medias queries*/
+@media (min-width: 320px) and (max-width: 760px) {
+    nav {
+        padding: 1rem;
+        margin: 0.5rem;
+        width: 90%;
+        background-color: rgb(245, 212, 223);
+        border-radius: 15px;
+    }
+    nav a {
+        text-decoration-line: none;
+    }
+    h1 {
+        padding: 1rem;
+        margin: 0.5rem;
+        color: tomato;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+    article{
+        padding: 2rem;
+    }
+    h3, h4{
+        font-size: 15px;
+    }
+    img {
+        width: 180px;
+        height: 210px;
+    }
+    .btnDetail {
+        font-size: 20px;
+        width: 8rem;
+        height: 3rem;
+        padding: 0.5rem;
+    }
+}
+
+
+/* *************************************************************** */
+@media (min-width: 761px) and (max-width: 1020px) {
+       
+    nav {
+        padding: 1.5rem;
+        margin: 0.5rem;
+        width: 100%;
+        font-style: italic;        
+        background-color: rgb(245, 212, 223);
+        border-radius: 15px;
+    }
+    nav a {
+        text-decoration-line: none;
+        font-size: larger;
+    }
+    nav a:hover{
+        color: rgb(250, 145, 180);
+        background-color: purple;
+    }
+    h1{
+        font-size: 35px;
+        font-size-adjust: initial;
+    }
+    .container{
+        width: 80%;       
+        gap: 5rem;
+        padding: 5rem;
+        background-color: rgb(245, 212, 223);
+        text-align: center;
+    }
+    article{
+        text-align: center; 
+        align-items: center;
+        justify-content: space-around;
+    }
+    img {
+        width: 200px;
+        height: 250px;
+    }
+    h3, h4{
+        font-size: 20px;
+        
+    }
+    .btnDetail {
+        font-size: 25px;
+        width: 10rem;
+        height: 3rem;
+    }
+}
+
+
+/* *************************************************************** */
+@media (min-width: 1021px)  {
+    nav {
+        padding: 1.5rem;
+        margin: 0.5rem;
+        width: 100%;
+        font-size: 30px;
+        font-style: italic;        
+        background-color: rgb(247, 212, 220);
+        border-radius: 15px;        
+    }
+    nav a{
+        text-decoration-line: none;
+    }
+    h1 {
+        font-size: 40px;
+        background-color: tomato;
+        color: bisque;
+        border-radius: 25px;
+    }
+    .container{
+        width: 90%;
+        padding: 5rem;
+    }
+    h3, h4{
+        font-size: 30px;
+    }
+    img {
+        width: 200px;
+        height: 250px;
+    }
+    .btnBuy, .btnDetail {
+        font-size: 25px;
+        width: 12rem;
+        height: 3rem;
+        border-radius: 5px;
+        border: 0;
+        text-align: center;
+        align-items: center;
+        padding: 0.5rem;
+    }
+    .btnBuy:hover, .btnDetail:hover{
+        text-transform: uppercase;
+        background-color: blanchedalmond;
+        color: crimson;
+        border: 3px solid tomato;
+        width: 100%;
+    }
+}
+/* ver si pongo los colores en var*/ 

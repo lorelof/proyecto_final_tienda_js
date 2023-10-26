@@ -1,0 +1,82 @@
+[
+    {
+       "id": 1,
+       "title": "Remera escote en V",
+       "price": "$ 8600",
+       "category": "hombre",
+       "description": "Remera de algodón de alta calidad. Confeccionadas con algodón 100% o algodón pol, en finura 30/1 según el color.",
+       "image":   "../assets/img/1_remera.jpg"
+   },
+   {
+       "id": 2,
+       "title": "Calza con bolsillos",
+       "price": "$ 18200",
+       "category": "mujer",
+       "description": "Calza deportiva. Tiene bolsillos, lo que facilita la actividad física.",
+       "image": "../assets/img/2_calza.jpg"       
+   },
+   {
+       "id": 3,
+       "title": "Campera urbana",
+       "price": "$ 28300",
+       "category": "hombre",
+       "description": "Campera urbana impermeable con capucha desmontable.",
+       "image": "../assets/img/3_campera_urb.jpg"
+   },
+   {
+       "id": 4,
+       "title": "Parka gabardina con capucha",
+       "price": "$ 34700",
+       "category": "hombre",
+       "description": "Campera Parka de gabardina, con capucha. Talle S en liquidación.",
+       "image": "../assets/img/4_parka.jpg"   
+   },
+   {
+       "id": 5,
+       "title": "Chaleco canelón con capucha",
+       "price": "$ 23410",
+       "category": "hombre",
+       "description": "Chaleco canelón con capucha desmontable, impermeable y térmico. Cierre en los bolsillos y cuenta con un bolsillo interno",
+       "image": "../assets/img/5_chaleco.jpg"
+    },
+   {
+       "id": 6,
+       "title": "Buzo con cierre",
+       "price": "$ 17600",
+       "category": "hombre",
+       "description": "Buzo algodón de alta calidad, con puños.",
+       "image": "../assets/img/6_buzo.jpg"   
+   },
+   {
+       "id": 7,
+       "title": "Campera frisa",
+       "price": "$ 18900",
+       "category": "mujer",
+       "description": "Campera de algodón combinada con cierre. Detalle de tira tejida aplicada",
+       "image": "../assets/img/7_campera.jpg"   
+   },
+   {
+       "id": 8,
+       "title": "Ojotas",
+       "price": "$ 8700",
+       "category": "mujer",
+       "description": "Ojotas muy cómodas y livianas. Diseño colorido con rayas.",
+       "image": "../assets/img/8_ojotas.jpg"   
+   },
+   {
+       "id": 9,
+       "title": "Bermuda jean",
+       "price": "$ 13600",
+       "category": "hombre",
+       "description": "Jean azul ring localizado con bigotes, ideal para quienes buscan un look casual. Este jean es perfecto para quien busca mayor comodidad y confort.",
+       "image": "../assets/img/9_bermuda.jpg" 
+   },
+   {
+       "id": 10,
+       "title": "Campera Algodón",
+       "price": "$ 26100",
+       "category": "hombre",
+       "description": "Campera Rustica de Algodón. Puño con elástico interno para colocar el dedo y ceñir la manga.",
+       "image": "../assets/img/10_campera_.jpg"    
+   }        
+]
